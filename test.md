@@ -1,4 +1,20 @@
+This is the algorithm.
+
 ```javascript
+function returnInput(input) {
+  let output;
+
+  if (input == 0) {
+    output = "rock";
+  } else if (input == 1) {
+    output = "paper";
+  } else {
+    output = "scissors";
+  }
+
+  return output;
+}
+
 function rockPaperScissors(input) {
   const random = Math.floor(Math.random() * 100);
   let opponentChoice;
@@ -15,11 +31,15 @@ function rockPaperScissors(input) {
   }
 
   if (opponentChoice == "rock") {
+    //selection
     if (input == 1) {
+      //selection
       outcome = "win";
     } else if (input == 2) {
+      //selection
       outcome = "lose";
     } else {
+      //selection
       outcome = "draw";
     }
   } else if (opponentChoice == "paper") {
@@ -51,5 +71,23 @@ function rockPaperScissors(input) {
     </div>
     `
   );
+}
+```
+
+This is another algorithm.
+
+```javascript
+for (let i = 0; i < history.length; i++) {
+  //Iteration
+  if (history[i] == "win") {
+    //selection
+    win++;
+  } else if (history[i] == "lose") {
+    //selection
+    lose++;
+  } else {
+    //selection
+    draw++;
+  }
 }
 ```

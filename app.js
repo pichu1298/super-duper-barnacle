@@ -7,35 +7,44 @@
 
 // factorial(5);
 
-function factorial(n) {
-  //guard clause
-  if (n <= 0) {
-    return "negative number or 0";
-  }
-  let result = 1;
-  for (let i = 1; i <= n; i++) {
-    result *= i;
-  }
-  return result;
-}
+// function factorial(n) {
+//   //guard clause
+//   if (n <= 0) {
+//     return "negative number or 0";
+//   }
+//   let result = 1;
+//   for (let i = 1; i <= n; i++) {
+//     result *= i;
+//   }
+//   return result;
+// }
 
-console.log(factorial(6));
+// console.log(factorial(6));
 
-function getUserScore(user) {
-  //guard clause
-  if (!user) {
-    return;
-  }
-}
+// function getUserScore(user) {
+//   //guard clause
+//   if (!user) {
+//     return;
+//   }
+// }
 
-function newFactorial(n) {
-  if (n > 0) {
-    let result = 1;
-    for (let i = 1; i <= n; i++) {
-      result *= i;
-    }
-    return result;
-  } else {
-    return "something went wrong";
-  }
-}
+// function newFactorial(n) {
+//   if (n > 0) {
+//     let result = 1;
+//     for (let i = 1; i <= n; i++) {
+//       result *= i;
+//     }
+//     return result;
+//   } else {
+//     return "something went wrong";
+//   }
+// }
+
+//Occupy Parking function, find occupied spaces of yesterday and today
+// function parkingSpaces(space, yesterday, today){
+//   let occupied = 0;
+//   for (i = 0; i<space; i++){
+
+//   }
+// }
+// parkingSpaces(5);

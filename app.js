@@ -41,10 +41,16 @@
 // }
 
 //Occupy Parking function, find occupied spaces of yesterday and today
-// function parkingSpaces(space, yesterday, today){
-//   let occupied = 0;
-//   for (i = 0; i<space; i++){
 
-//   }
-// }
-// parkingSpaces(5);
+//compare each corresponding parking spot if it is occupied or not...
+//output those in common
+function parkingSpaces(space, yesterday, today) {
+  yesterdaySpots = Array.from(yesterday);
+  todaySpots = Array.from(today);
+  for (let i = 0; i < space; i++) {
+    if (yesterdaySpots.indexOf("C") === todaySpots.indexOf("C")) {
+      console.log("");
+    }
+  }
+}
+parkingSpaces(5);

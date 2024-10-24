@@ -1,3 +1,15 @@
+function binaryToDecimal(decimal) {
+  let result = 0;
+  for (let i = decimal.length; decimal.length > 0; i--) {
+    //run for as long as the decimal
+    if (decimal[i] === "1") {
+      result += 2 ** i;
+    }
+  }
+  return result;
+}
+console.log(binaryToDecimal("111"));
+
 function getSpaces(spaces, yesterday, today) {
   let count = 0;
   for (let i = 0; i < spaces; i++) {

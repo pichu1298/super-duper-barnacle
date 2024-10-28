@@ -46,7 +46,7 @@ function decimalToBinary(dec) {
   binaryd.reverse();
   return binaryd;
 }
-console.log(decimalToBinary("8"));
+console.log(decimalToBinary(8));
 
 function getSpaces(spaces, yesterday, today) {
   let count = 0;

@@ -1,3 +1,4 @@
+
 function decimalToBinary(dec) {
   let binaryd = [];
   while (dec > 0) {
@@ -10,4 +11,4 @@ function decimalToBinary(dec) {
   binaryd.reverse();
   return binaryd;
 }
-console.log(decimalToBinary("8"));
+console.log(decimalToBinary(8));
